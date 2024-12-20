@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Developer Portfolio showcasing skills in HTML, CSS, JavaScript, React, Node.js, and more.">
+    <title>CHINAVEERRAJU - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="./assets/pic.jpg.jpg" alt="Photo of CHINAVEERRAJU" class="about-img">
+            <div class="about-text">
+                <p>I am a skilled web developer with expertise in HTML, CSS, JavaScript, and more. I’m passionate about building user-friendly, scalable web applications that deliver a seamless experience.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Git & GitHub</li>
+                    <li>SQL & PostgreSQL</li>
+                    <li>C programming Language</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+               
+                <h3>Project 1</h3>
+                <p>Description of the project goes here.</p>
+                <a href="https://chinaveerraju.github.io/Simple_Website/" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+               
+                <h3>Project 2</h3>
+                <p>Description of the project goes here.</p>
+                <a href="https://chinaveerraju.github.io/SIMON-Game/" target="_blank">View on GitHub</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xvgonekb" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
